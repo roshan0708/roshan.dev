@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+/* Background Image Container */
+.hero-bg {
+  background-image: url('../assets/hero_section_1.jpg'); /* replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%) brightness(0.1); /* Lower brightness for more dimming */
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+/* Global transitions */
+html, body {
+  transition: all 0.3s ease;
+}
+
+/* Valorant-style font */
+.my_name {
+  font-family: 'VALORANT', sans-serif;
+  font-size: 4rem;
+}
