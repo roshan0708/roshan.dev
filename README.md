@@ -1,80 +1,59 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+![Image](https://github.com/user-attachments/assets/f3f14ae7-4428-49ab-b3ee-12e89b5043f9)
 
-# React Tailwindcss Boilerplate build with Vite
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+# 🚀 Portfolio 3.0 Website
 
-## What is inside?
+Welcome to my personal portfolio! This site serves as a digital representation of my skills, projects, and professional journey, built with an **anime** and **game-inspired** theme for an engaging user experience. The site is crafted with modern web technologies to deliver a smooth, interactive, and dynamic browsing experience.
 
-This project uses many tools like:
+---
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+## 🎮 Project Overview
 
-## Getting Started
+### **Objective:**
+To create a visually captivating, interactive portfolio website that reflects my passion for anime and gaming while maintaining a professional and sleek aesthetic. The website features dynamic sections, smooth animations, and modern UI/UX design principles to captivate visitors.
 
-### Install
+### **Key Features:**
+- **Dynamic Content:** Sections like *About*, *Skills*, and *Projects* pull content from JSON/Markdown or a headless CMS.
+- **Smooth Transitions & Micro-interactions:** Enjoy page transitions with fade/slide effects, hover states, and custom loading animations.
+- **Responsive & Modern Design:** A fully responsive layout that adapts seamlessly to any device.
+- **Continuous Integration & Deployment (CI/CD):** Automated deployment pipeline via GitHub Actions and Vercel.
 
-Create the project.
+---
 
-```bash
-pnpm dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
+## 🛠 Tech Stack
 
-Access the project directory.
+### **Frontend:**
+- **React:** The core library used to build the user interface and manage dynamic content.
+- **Vite:** A lightning-fast build tool, making the development experience extremely efficient.
 
-```bash
-cd my-app
-```
+### **Styling:**
+- **TailwindCSS:** A utility-first CSS framework for rapid and responsive design.
+- **Framer Motion:** Used to create fluid and smooth animations for transitions and interactions.
+- **Heroicons/Lucide/Custom SVGs:** Beautiful, scalable icons and illustrations for an anime/game aesthetic.
 
-Install dependencies.
+### **Content Management:**
+- **JSON/Markdown** or **Headless CMS:** For easily updating and managing content without needing to touch code.
 
-```bash
-pnpm install
-```
+### **CI/CD & Deployment:**
+- **GitHub Actions:** Automates testing, linting, and deployment.
+- **Vercel:** Provides seamless deployment with preview branches, enabling quick feedback on changes.
 
-Serve with hot reload at <http://localhost:5173>.
+### **Design Tools:**
+- **Figma / Penpot:** To create polished and user-centric UI mockups.
+- **Midjourney / Leonardo.ai:** For generating stunning anime/game-inspired background art.
+- **Canva:** To craft beautiful color palettes and visuals.
 
-```bash
-pnpm run dev
-```
+## 🎨 Design & Architecture
 
-### Lint
+### **Application Structure:**
+This website is built as a **Single Page Application (SPA)** to deliver a fluid, game-like experience with instant transitions between sections.
 
-```bash
-pnpm run lint
-```
+## 📈 CI/CD Pipeline
 
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
+1. **Continuous Integration:**
+   - GitHub Actions runs linting and testing on each pull request.
+   - Ensures quality code is always merged into the `dev` or `main` branch.
+   
+2. **Deployment:**
+   - **Vercel** automatically deploys the `main` branch to production and creates preview deployments for each feature branch.
+   - Provides a real-time preview of updates before they go live.
